@@ -1,3 +1,5 @@
+import numpy as np
+
 def map_classes(score):
     if 0 <= score <= 0.2:
         return 0  # Very negative
@@ -11,3 +13,11 @@ def map_classes(score):
         return 4  # Very positive
     else:
         return None  # If score is out of range
+
+def generate_vocab(train_df):
+    tokens = []
+    for _, row in train_df.iterrows():
+        row_tokens = row['tokens'].split('|')
+        tokens.extend(row_tokens)
+    return np.unique(tokens)    
+
