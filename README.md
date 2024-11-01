@@ -29,7 +29,7 @@ The training process involves the following steps:
 3. **Feature Matrix Generation**: Generate a feature matrix for the training dataset using the extracted bigrams.
 4. **Feature Filtering**: Filter features for validation and test datasets to match the training features.
 5. **Model Training**: Train the models using the training dataset and validate using the validation dataset.
-
+6. 
 ## Testing and Evaluation
 
 - The models are evaluated using the test dataset.
@@ -38,3 +38,6 @@ The training process involves the following steps:
 ## Results
 
 The results of the models are logged using Comet.ml for tracking and visualization.
+![Accuracy](https://github.com/user-attachments/assets/42cbac82-5aa8-4373-9490-51ad59417561)
+![Loss](https://github.com/user-attachments/assets/b9fbb5f2-4bc1-4c74-8a62-9719e1557d00)
+
