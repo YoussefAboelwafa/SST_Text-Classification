@@ -2,8 +2,6 @@
 
 Sentiment Classification into five distinct classes using the Stanford Sentiment Treebank (SST) dataset using two different classification models: Naive Bayes & Logistic Regression.
 
-<hr>
-
 ## Dataset
 
 The SST dataset consists of labeled sentences with sentiment scores, where scores closer to 0 indicate negative sentiment and scores closer to 1 indicate positive sentiment. To simplify the classification task, the sentiment scores are mapped to five categories as follows:
