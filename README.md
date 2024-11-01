@@ -36,6 +36,9 @@ The training process involves the following steps:
 ## Results
 
 The results of the models are logged using Comet.ml for tracking and visualization.
-![Accuracy](https://github.com/user-attachments/assets/42cbac82-5aa8-4373-9490-51ad59417561)
-![Loss](https://github.com/user-attachments/assets/b9fbb5f2-4bc1-4c74-8a62-9719e1557d00)
+![Comet Experiments](https://www.comet.com/youssefaboelwafa/nlp-lr/view/new/panels)
+
+![train_accuracy,val_accuracy VS step](https://github.com/user-attachments/assets/03072ad6-2f4c-4e08-a6f6-e406bb4fef1f)
+![train_loss,val_loss VS step](https://github.com/user-attachments/assets/d955e37e-0d4e-4ee0-80d6-c82b960e51af)
+
 
