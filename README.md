@@ -25,7 +25,7 @@ The training process involves the following steps:
 3. **Feature Matrix Generation**: Generate a feature matrix for the training dataset using the extracted bigrams.
 4. **Feature Filtering**: Filter features for validation and test datasets to match the training features.
 5. **Model Training**: Train the models using the training dataset and validate using the validation dataset.
-6. 
+
 ## Testing and Evaluation
 
 - The models are evaluated using the test dataset.
