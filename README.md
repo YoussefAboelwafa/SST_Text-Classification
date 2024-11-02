@@ -16,8 +16,6 @@ The SST dataset consists of labeled sentences with sentiment scores, where score
 
 **Logistic Regression**: A linear model for binary classification that can be extended to multiclass classification using the One-vs-Rest (OvR) strategy.
 
-**Stochastic Gradient Descent (SGD)**: An optimization algorithm used to train the logistic regression model.
-
 ## Training Process
 
 The training process involves the following steps:
